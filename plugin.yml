@@ -1,0 +1,15 @@
+name: LiftsUI
+api: 5.0.0
+main : Lord\UI
+version: 1.0.0
+author: Lord
+
+commands:
+  lift:
+    description: Open Lift Operator For Travel In Different Caves
+    permission: lift.cmd
+    
+permissions:
+  lift.cmd:
+    description: Permission to use lift command
+    default: true
