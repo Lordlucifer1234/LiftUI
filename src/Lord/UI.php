@@ -64,50 +64,50 @@ $form = new SimpleForm(function (Player $player, int $data = null){
       switch($data){
 
         case 0:
-            $this->getServer()->dispatchCommand($player, $this->config->get("Coal_Mine"));
+            SERVER::getInstance()->dispatchCommand($player, $this->config->get("Coal_Mine"));
             $player->sendTitle("§l§0COAL MINE");
             $player->sendMessage("§aTeleported You To §bCoal Mine");
             break;          
 
          case 1:
-            $this->getServer()->dispatchCommand($player, $this->config->get("Iron_Mine"));
+            SERVER::getInstance()->dispatchCommand($player, $this->config->get("Iron_Mine"));
             $player->sendTitle("§l§fIRON MINE");
             $player->sendMessage("§aTeleported You To §bIron Mine");
             break;           
 
          case 2:
-            $this->getServer()->dispatchCommand($player, $this->config->get("Gold_Mine"));
+            SERVER::getInstance()->dispatchCommand($player, $this->config->get("Gold_Mine"));
             $player->sendTitle("§l§eGOLD MINE");
             $player->sendMessage("§aTeleported You To §bGold Mine");
             break;        
 
          case 3:
-            $this->getServer()->dispatchCommand($player, $this->config->get("Lapis_Mine"));
+            SERVER::getInstance()->dispatchCommand($player, $this->config->get("Lapis_Mine"));
             $player->sendTitle("§l§9LAPIS MINE");
             $player->sendMessage("§aTeleported You To §bLapis Mine");
             break;           
 
          case 4:
 
-            $this->getServer()->dispatchCommand($player, $this->config->get("Redstone_Mine"));
+            SERVER::getInstance()->dispatchCommand($player, $this->config->get("Redstone_Mine"));
             $player->sendTitle("§l§cREDSTONE MINE");
             $player->sendMessage("§aTeleported You To §bRedstone Mine");
             break;         
 
           case 5:
-            $this->getServer()->dispatchCommand($player, $this->config->get("Emerald_Mine"));
+            SERVER::getInstance()->dispatchCommand($player, $this->config->get("Emerald_Mine"));
             $player->sendTitle("§l§aEMERALD MINE");
             $player->sendMessage("§aTeleported You To §bEmerald Mine");
             break;         
 
           case 6:
-            $this->getServer()->dispatchCommand($player, $this->config->get("Diamond_Mine"));
+            SERVER::getInstance()->dispatchCommand($player, $this->config->get("Diamond_Mine"));
             $player->sendTitle("§l§bDIAMOND MINE");
             $player->sendMessage("§aTeleported You To §bDiamond Mine");
             break;          
 
           case 7:
-            $this->getServer()->dispatchCommand($player, $this->config->get("sanctuary_Mine"));
+            SERVER::getInstance()->dispatchCommand($player, $this->config->get("sanctuary_Mine"));
             $player->sendTitle("§l§6SANCTUARY");
             $player->sendMessage("§aTeleported You To §bSanctuary");
             break;
